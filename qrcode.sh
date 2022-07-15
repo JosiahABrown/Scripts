@@ -20,6 +20,8 @@ if [ -f "$name" ]; then
 	echo "$name created successfully"
 fi
 
+# Issues moving png to home dir
+# ___________________________________________
 #while true; do
 
 #read -p "Do you want to move the file?: (y/n) " yn
@@ -34,3 +36,4 @@ fi
 #esac
 
 #done
+# ___________________________________________
