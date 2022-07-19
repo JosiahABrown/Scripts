@@ -20,6 +20,6 @@ alias view='fim -a'
 
 # Scripts
 alias tor='~/Downloads/tor-browser_en-US/Browser/start-tor-browser &'
-alias update='sudo ~/Scripts/updateAndReboot.sh'
-alias qr='~/Scripts/qrcode.sh'
-alias dirsize='~/Scripts/dirSize.sh'
+alias update='sudo updateAndReboot.sh'
+alias qr='qrcode.sh'
+alias dirsize='dirSize.sh'
