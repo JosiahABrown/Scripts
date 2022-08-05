@@ -39,5 +39,5 @@ depend_txt "npm"
 
 # pip installs
 echo "[✔] Installing pip dependencies"
-sudo pip3 install 'python-lsp-server[all]'
+sudo pip3 install 'python-lsp-server[all]' virtualenv
 depend_txt "pip"
