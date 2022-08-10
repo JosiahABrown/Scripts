@@ -7,8 +7,16 @@
 # 
 # ----------------------------------
 
-sudo apt update 
-sudo apt upgrade
+if [ -f /usr/bin/nala ]; then
+	sudo nala update 
+	sudo nala upgrade 
+else
+	echo "Nala not installed..."
+	echo "Using apt"
+	echo 
+	sudo apt update 
+	sudo apt upgrade
+fi
 
 # check if reboot is needed
 
