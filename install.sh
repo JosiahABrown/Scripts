@@ -28,7 +28,7 @@ fi
 
 # apt installs
 echo "[✔] Installing dependencies"
-sudo apt-get install ripgrep 
+sudo apt-get install ripgrep bat 
 depend_txt "apt"
 
 # npm installs
