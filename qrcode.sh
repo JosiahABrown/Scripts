@@ -1,4 +1,4 @@
-#!/bin/bash
+#!usr/bin/bash
 
 # ___________________________________________
 # This script requires the package "qrencode"

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!usr/bin/bash
 
 # Checks if the internet works
 
